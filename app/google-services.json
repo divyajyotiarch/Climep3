@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "649603365853",
+    "firebase_url": "https://music-player-1555846072322.firebaseio.com",
+    "project_id": "music-player-1555846072322",
+    "storage_bucket": "music-player-1555846072322.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:649603365853:android:e5c142e3712e6077",
+        "android_client_info": {
+          "package_name": "com.example.divyajyoti.climep3"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "649603365853-morjcc2hcr66qn6qpr5g9i16gviekrh7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDq5REPtw6ustUBwLQ8YzN62MBmg2BJCAA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "649603365853-morjcc2hcr66qn6qpr5g9i16gviekrh7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
