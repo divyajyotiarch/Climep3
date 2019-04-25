@@ -4,8 +4,10 @@
 
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <uses-permission android:name="android.permission.WAKE_LOCK" />
-    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
     <permission android:name="android.permission.MEDIA_CONTENT_CONTROL" />
+
     <uses-permission android:name="android.permission.READ_PHONE_STATE" />
 
     <application
@@ -23,11 +25,12 @@
             </intent-filter>
         </activity>
 
-            <meta-data
-                android:name="com.google.android.awareness.API_KEY"
-                android:value="AIzaSyBZ8lvkSPRH1B4qborO2Qwigfb-HVqTptk"/>
+        <meta-data
+            android:name="com.google.android.awareness.API_KEY"
+            android:value="AIzaSyBZ8lvkSPRH1B4qborO2Qwigfb-HVqTptk" />
 
-
+        <activity android:name=".PlayList" />
+        <activity android:name=".SongList"></activity>
     </application>
 
 </manifest>

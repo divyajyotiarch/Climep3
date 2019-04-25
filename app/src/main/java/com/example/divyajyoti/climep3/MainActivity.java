@@ -2,6 +2,7 @@ package com.example.divyajyoti.climep3;
 
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
+import android.content.Intent;
 import android.content.res.AssetFileDescriptor;
 import android.graphics.PorterDuff;
 import android.media.AudioManager;
@@ -150,6 +151,10 @@ public class MainActivity extends AppCompatActivity {
             case R.id.shuffle_btn:
                 toggleButtonColor((ImageButton) v);
                 Snackbar.make(parent_view,"shuffle",Snackbar.LENGTH_LONG).show();
+                break;
+            case R.id.play_list:
+                Intent playlist = new Intent(MainActivity.this,PlayList.class);
+                startActivity(playlist);
                 break;
         }
     }

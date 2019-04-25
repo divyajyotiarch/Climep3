@@ -201,14 +201,26 @@
 
             android:layout_height="match_parent"
             android:layout_width="match_parent"
-            android:gravity="center"
-            android:orientation="vertical">
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:id="@+id/play_list"
+                android:onClick="controlClick"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                app:srcCompat="@drawable/ic_queue_music_black_32dp"
+                android:tint="@color/colorWhite"
+                />
 
     <TextView
         android:layout_height="wrap_content"
         android:layout_width="wrap_content"
         android:text="Now Playing"
-        android:textSize="20dp"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="90dp"
         android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
         android:textColor="@android:color/white"
         android:textStyle="bold"
